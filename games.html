@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html>
+
+	
+<!-- Mirrored from jiligames.com/plusplayer/games by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2024 07:25:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <title>JILI Games</title>
+        <!-- CSS -->
+        <link href="../css/plusplayer/slick.css" rel="stylesheet" type="text/css">
+<link href="../css/plusplayer/slick-theme.css" rel="stylesheet" type="text/css">
+<link href="../css/plusplayerV2/animate.min.css" rel="stylesheet" type="text/css">
+<link href="../css/plusplayerV2/master.css" rel="stylesheet" type="text/css">
+<link href="../css/plusplayerV2/style.css" rel="stylesheet" type="text/css">
+<link href="../css/plusplayerV2/_setup.scss" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+<script src="../../cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+
+		
+        <link href="../css/plusplayerV2/games.css" rel="stylesheet" type="text/css">
+        <!-- RWD -->
+        <!-- jQuery 3 -->
+<script src="../AdminLTE/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../AdminLTE/dist/js/adminlte.min.js"></script>
+<!--iCheck -->
+<script src="../AdminLTE/plugins/iCheck/icheck.min.js"></script>
+<!--common-->
+<script src="../js/common.js"></script>
+<script src="../AdminLTE/bower_components/moment/min/moment.min.js"></script>
+<script src="../AdminLTE/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+<!--slider-->
+<script src="../js/slick.min.js"></script>
+<!--scroll magic -->
+<script src="../js/TweenMax.min.js"></script>
+<script src="../js/jquery.scrollmagic.js"></script>
+<script src="../js/jquery.scrollmagic.debug.js"></script>
+<!-- xlxs.js -->
+<script src="../js/jszip.js"></script>
+<script src="../js/xlsx.js"></script>
+<!-- jquery-ui.js -->
+<script src="../AdminLTE/plugins/jQueryUI/jquery-ui.js"></script>
+<!-- ckeditor.js 4.21.0 -->
+<script src="../../cdn.ckeditor.com/4.21.0/full/ckeditor.js"></script>
+<!-- sweetalert2 -->
+<script src="../js/sweetalert2/sweetalert2.all.min.js"></script>
+<!-- SimpleTableCellEditor.js -->
+<script src="../js/SimpleTableCellEditor.js"></script>
+<!-- jframwork -->
+<script src="../js/Jframework.js"></script>
+        <script src="../js/pluscommon.js"></script>
+<script src="../js/plusPlayerV2.js"></script>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src='../js/TweenMax.min.js'></script>
+<script src='../js/jquery.scrollmagic.js'></script>
+<script src='../js/jquery.scrollmagic.debug.js'></script>
+<script src='../js/main.js'></script>
+<script src='../js/plusV2common.js'></script>
+<script src='../js/common.js'></script>
+
+
+
+    
+    </head>
+
+<body>
+<div class="wrapper">
+	<!-- Btn Go Top -->
+	<div class="box_go_top hide">
+		
+		<a href="#" class="btn_go_top"></a>
+	</div>
+	<!-- QRcode滑動 -->
+	<!-- QRcode滑動 -->
+	<!-- 主選單 -->
+	<div class="navbar">
+		<div class="container">
+		
+			<a class="navbar__logo" href="entranceplus.html" style=" ">
+				<img src="../img/plusplayerV2/logo_jili_us-en.png" alt="JILI">
+			</a>
+		
+			<div class="navbar_main">
+			<nav class="main-nav">
+				<ul class="container">
+					<li class="main-nav__item">
+						<a href="entranceplus.html" class="main-nav__link btn_popup_index">Home</a>
+					</li>
+					<li class="main-nav__item">
+							<a href="entranceplus.html#aboutUs" class="main-nav__link btn_popup_about">Company</a>
+					</li>
+					
+					<li class="main-nav__item">
+						<a href="https://jkc88.fun/RFSEMACC1" class="main-nav__link ">GAMES</a>
+					</li>
+										<li class="main-nav__item">
+						<a href="entranceplus.html#contact" class="main-nav__link ">Contact Us</a>
+					</li>
+										
+
+				</ul>
+			</nav>
+			<div class="user-selector">
+				<div class="playGames">
+					<a href="https://jkc88.fun/RFSEMACC1"></a>
+				</div>
+				<div class="search" >
+					<a class="searchBtn" onclick="clearKeyword()"></a>
+				</div>
+				<div class="searchBar">
+					<input type="text" class="search-input" id="search" onchange="doSearch($('#search').val())">
+					<a type="button" id="button" onclick="doSearch($('#search').val())" ><i class="fa fa-search"></i></a>
+				</div>
+				<div class="language-selector-container" tabindex="0" hidefocus="true">
+						
+					<div class="language-button"></div>
+					<div class="language-list" id="plusLangType" >
+						
+						
+						<a class="language-list__item" href="#">								
+							<span class="language-list__title language_en-us" value="en-us"><img src="../img/plusplayerV2/flag_ENG.png">  ENG</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_th-th" value="th-th"><img src="../img/plusplayerV2/flag_TH.png">  THAI</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_id-ID" value="id-ID"><img src="../img/plusplayerV2/flag_IDN.png">  IDN</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_vi-VN" value="vi-VN"><img src="../img/plusplayerV2/flag_VN.png">  VN</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_ja-JP" value="ja-JP"><img src="../img/plusplayerV2/flag_JP.png">  JP</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_ko-KR" value="ko-KR"><img src="../img/plusplayerV2/flag_KR.png">  KR</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_my-MM" value="my-MM"><img src="../img/plusplayerV2/flag_MM.png">  MM</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_hi-IN" value="hi-IN"><img src="../img/plusplayerV2/flag_INR.png">  INR</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_es-AR" value="es-AR"><img src="../img/plusplayerV2/flag_ES.png">  ES</span>
+						</a>
+						<a class="language-list__item" href="#">					
+							<span class="language-list__title language_pt-PT" value="pt-PT"><img src="../img/plusplayerV2/flag_PT.png">  PT</span>
+						</a>
+						<a class="language-list__item" href="#">								
+							<span class="language-list__title language_zh-cn" value="zh-cn"><img src="../img/plusplayerV2/flag_CN.png">  CN</span>
+						</a>
+					</div>
+				</div><!-- 漢堡選單 -->
+				<div class="hamburger animated flipInY">
+					<a class="language-list__item" href="#">
+					</a>
+				</div>
+				<div class="hamburger_close animated">
+					<a class="language-list__item" href="#">
+					</a>
+				</div>
+				<form method="post" id="changeinrLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="hi-IN" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changetwLanguageForm" >
+						<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+						<input type="hidden" name="locale" value="zh-tw" >
+						<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changecnLanguageForm" >
+						<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+						<input type="hidden" name="locale" value="zh-cn" >
+						<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changeenLanguageForm" >
+						<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+						<input type="hidden" name="locale" value="en-us" >
+						<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changethLanguageForm" >
+						<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+						<input type="hidden" name="locale" value="th-th" >
+						<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changeidnLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="id-ID" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changevnLanguageForm" >
+				<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+				<input type="hidden" name="locale" value="vi-VN" >
+				<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				<form method="post" id="changejpLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="ja-JP" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+				</form>
+				 
+				<form method="post" id="changemyLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="my-MM" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+			    </form>
+
+				<form method="post" id="changeesLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="es-AR" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+			    </form>
+
+				<form method="post" id="changeptLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="pt-PT" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+			    </form>
+
+				<form method="post" id="changekrLanguageForm" >
+					<input type="hidden" name="_token" value="tl6Fz7t2k0Iqi48uBym6Bsx8egPsviP7giwFxDul">
+					<input type="hidden" name="locale" value="ko-KR" >
+					<input type="hidden" name="action" value="changePlusLanguage">
+			    </form>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- 頁面內容區 -->
+	<div class="content content_index">
+		<div class="container gameDemos">
+			<div class="content">
+				<div class="subtitile">
+					<a id="game" class="container_margin_top"></a>
+					<span class="top-deco" id="top-deco">Game</span>
+					<h2>Try out</h2>
+					<hr style="margin-bottom: 4px;">
+				</div>
+				<div class="game_nav" >
+					<ul class="game_nav_container row_flex-start" >
+						<li class="col-2_4 btn_all" ><a class="language-list__item   btn-type "  value="0"  href="#" id ="allGameButton">All</a></li>
+						
+						<li class="col-2_4 btn_hot"  ><a class="language-list__item  btn-type"  value="2"  href="#" id ="hotGameButton">Popular</a></li>
+						<li class="col-2_4 btn_fish"  ><a class="language-list__item  btn-type"  value="3"  href="#" id ="fishGameButton">Arcade and Fishing</a></li>
+						<li class="col-2_4 btn_slot"  ><a class="language-list__item  btn-type"  value="4"  href="#" id ="slotGameButton">Slot</a></li>
+						<li class="col-2_4 btn_poker"  ><a class="language-list__item  btn-type"  value="5"  href="#" id ="pokerGameButton">Table and Card</a></li>
+					</ul>
+				</div>
+				<div class="games">
+															<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/236_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Wheel</div>
+							<div class="gamesBox--txt">
+								<p>The fast-paced instant win roulette is now available! Simply choose one of three symbols to place your bet and win rewards! Switch to the risk mode for a chance to win high-yield rewards! Trigger a re-spin or two special rewards.
+Fairness and impartiality! You can verify the results of each round through the seeds of both parties.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/236.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=236&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=3JwmAx38ae0566c12bab98c7dd3334ea495fa7t9o9iA&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/235_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Limbo</div>
+							<div class="gamesBox--txt">
+								<p>A rocket soaring to the end of space. Low multiplier increases winning probability, high multiplier increases winning amount, everything is under your control.
+When the rocket flies far enough, you can receive extra rewards. Come and challenge yourself!
+Fair game! You can verify the result of each round.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/235.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=235&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=bP9O1d9e942aebc065f250289d7628ffdceaf9N46vRq&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/233_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">HILO</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Poker High-Low&quot; challenges your intuition and eyesight, as you continuously guess the next card&#039;s value and watch your bonus multiplier skyrocket! Fair gameplay guaranteed, as you can verify the results of each round.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/233.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=233&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=th7SyG8f7e29fc9070d023d03dcefdd015c9d4F08CCv&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/232_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Tower</div>
+							<div class="gamesBox--txt">
+								<p>Rapidly stacking odds, exciting challenges - this is another form of minesweeper game!
+The lower the probability in each level, the more money you win! In self-selected risk, decide your own winning strategy!
+Fairness and impartiality! You can verify the results of each round through the seeds of both parties.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/232.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=232&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=mYOQQr673103c51ea2fc936bdf60b1a913baa9lQzBSd&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/229_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Mines</div>
+							<div class="gamesBox--txt">
+								<p>Multiple gold coins are waiting for you to dig, Mines with super high magnification and optional risks is here
+Choose the number of mines for a fair game that meets your needs, and each round can be verified by the seeds of both parties</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/229.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=229&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=tOKuMucbb1f9c3928ee9a1e2ef088f1fab7279zJu8Qo&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 1>
+						<div class="gamesBox--image"><img src="../img/games/ZAEMENa3CdQQraT1jXs1I5WLv8xa4VG66fUjtZSx.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Go Rush</div>
+							<div class="gamesBox--txt">
+								<p>Embark on an adventurous journey through the unknown universe aboard a rocket, employing strategic tactics to earn bonuses. Choose between low risk or high rewards, with full control over your actions.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/224.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=224&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=hFG6sf73cc274e127304e956b6c5b9512a78b2uz7CmY&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/136_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Samba</div>
+							<div class="gamesBox--txt">
+								<p>You are invited to participate in the Samba Carnival, through Samba conversion to achieve a large-scale connection, so that you will have unlimited joy.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/136.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=136&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=jnOb3a14fcdce8b050eeb7fe9fd90db93567bcNSrwch&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/146_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">World Cup</div>
+							<div class="gamesBox--txt">
+								<p>2x2 and 3x3 will appear in the 2~4 reels, and the large symbols are visible
+Stack a large number of the same symbol to greatly increase the number of lines and payouts! (all symbols have large symbols)
+As long as the Bonus symbol appears, you will get a bonus, and the more you get, the higher the bonus.
+In the free game, the multiplier of winning points is randomly obtained in each round, and all winning points can get a multiplier effect!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/146.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=146&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=Ag5iDs063d320baad5357fa58f28b9ad604d4cWY6lOJ&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/142_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bonus Hunter</div>
+							<div class="gamesBox--txt">
+								<p>Every time you win, you will get +1 multiplier until the end of the round, and the free game can even continue to increase until the end of the game. The highest multiplier is unlimited! Eliminate the golden frame to turn out the wild symbol. Keep eliminating, Keep taking bonus, and the multiplier will always be increased. Come and experience this refreshing feeling of winning!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/142.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=142&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=zNFB7N45e43b4f69296eaa08050f51d286f9f7vaQaer&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/YSWOf4ciLuQ6gOJXpaLaQNofMXvggbZcC4oyVPIW.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Crazy Pusher</div>
+							<div class="gamesBox--txt">
+								<p>Special ball pushing game, push all kinds of balls down from the platform to win prizes easily
+Golden balls and colored balls can be pushed down to play reels with a maximum multiplier of 666 times!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/153.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=153&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=udkyXk4f6648025660bd743e6d77ac2bbb5b4avL3ewS&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/FEc3Ol7k2yel5p1gQDGiws6yfF8s47XSUZfQOHTZ.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bone Fortune</div>
+							<div class="gamesBox--txt">
+								<p>On this special day, we will hold a celebration and party all night under the influence of the moonlight!! The guitarist will bring passionate music and join the money ceremony together!
+  The wild appears, giving you free respins!
+  During the respin, the sticky wilds move down until there are no more wilds on the reels, and the free respins will end! Crazy free respins will be with you till the end!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/126.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=126&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=uyWkfq86305a9916703124941f0a604d6a5b07LZ5I7J&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/GlxsAv0nVNz3DtZlqIN6i8HLVGUtaEpJCkGA0Aaj.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Medusa</div>
+							<div class="gamesBox--txt">
+								<p>Medusa is well-known, she brings together many desirable elements such as beauty, fame, and wealth. Come and conquer Medusa to achieve an extraordinary life.
+  The higher the bet in the game, the higher the Symbol odds, and there are two free games to choose from!
+  
+  Collect a variety of different Scatter to win big prizes, Free spins remove low-paying Symbols. A special Medusa symbol will also appear during the Free Spins to increase your winnings. Extra bets enhance the Medusa effect in free games, make good use of the Medusa gems (Scatter) since you get to choose the most suitable gameplay for you!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/101.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=101&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=DDPttB28a334a746845024effc12a515517af6XDfhtK&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/87_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Book of Gold</div>
+							<div class="gamesBox--txt">
+								<p>In the flying dust desert, find the long-lost Book of Gold and expand the golden symbol through the mysterious power. In addition to the general bonus, you can also match the WILD expansion to easily get all the rewards!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/87.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=87&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=RLXym3f61ed6b88af29163c07014319beedb9bkIzB5t&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/QrMRYsEdb7ImSGGNvKrNUqGmWa6QoaS4uD5Vtvwk.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Happy Taxi</div>
+							<div class="gamesBox--txt">
+								<p>Cutting through the quiet night, the happy taxi departs!
+  Take a taxi to the Gate of Wealth, and the old driver will take you to fly!
+  From the 2nd to the 4th round, the Wild taxi rushes out, and the multiplier will be multiplied again after winning the lottery!
+  The multipliers are X2, X3, and X4, and the multipliers are multiplied up to X4 so the bonus goes straight to X36!!
+  During the Hurricane mode you accumulate the multipliers on the car X0.5, X1, X2, X3. The multiplier of all the cars encountered by the driver is +0.5 and the Rolls-Royce collects all the multipliers on the grid!
+  Such a crazy old driver, don’t hurry to get in the car! Take a taxi, relax and make money!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/116.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=116&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=bCYyyfd58e33e33899ea0991ed2a75aed416708zPJtb&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/149_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Calaca Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get the number, and a lot of bingo bonuses are waiting for you!
+Lightning Hit Gets More Numbers Connected
+Rewards Draw the prize you want and win a lot of money</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/149.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=149&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=2AwrwM68f0075db634dd85c8206c78e692369cUw5baN&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/178_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Go Goal BIngo</div>
+							<div class="gamesBox--txt">
+								<p>Get the number, and a lot of bingo bonuses are waiting for you!
+Lightning Hit Gets More Numbers Connected
+Bonus slot machines with unlimited multipliers to win big prizes</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/178.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=178&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=lpGFxoff5555773383bf362bf8bfac3e68b412aeD57E&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/179_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Win Drop</div>
+							<div class="gamesBox--txt">
+								<p>Freely adjust the position of the smashing plate, and develop your own mobile strategy!
+Adjust the risk fluctuation, so that the risk and multiple can be easily controlled!
+After passing the smashing plate, multiply and multiply again, up to 6000 times!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/179.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=179&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=DR5Ui11bf13b6170734032e89cf832f48b4c7b0wqjWf&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/WKPXPRNMECIpaSNDUbjOGkZzssdotnexMnzpoaJL.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">THOR X</div>
+							<div class="gamesBox--txt">
+								<p>Want to get the treasure of Asgar? Through continuous elimination of cumulative winnings you can also qualify for free games. The more consecutive matches, the higher the number of rounds. You can get more rounds in free games and win even more rewards thanks to additional bonus games. The soul of the gods, show your courage and swing your weapon at the Fenrir wolf to get exclusive bonuses.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/130.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=130&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=ypOLTJ11d57b5ea0abe8f65a6a5f503bda3383oyCyoa&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/tgj1hn8px0A529tw5OXW3K9baqxNnmInW0fawbxv.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Super Ace</div>
+							<div class="gamesBox--txt">
+								<p>&quot;When Super Aces and Golden Cards match and are eliminated, they become Wilds and multiply the Elimination Multiplier winnings！&quot; After activating the Free Game, the Elimination Multiplier bonus will be doubled. Pair with Golden Cards to win endless prizes.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="https://jkc88.fun/RFSEMACC1"  class="intro">Game Info</a>
+							<a href="https://jkc88.fun/RFSEMACC1" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/v8iErJBJFBFhzzKIEMigEgzur2Rig7k8Z14ljBu8.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Golden Empire</div>
+							<div class="gamesBox--txt">
+								<p>The Inca Empire is bursting with gold. Let the Chieftan guide you into the Temple of the Sun and discover the secret gold hoard.  The variable discs and gold frames become available wild cards for the thrill of continuous elimination and even more pleasant surprises!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="https://jkc88.fun/RFSEMACC1"  class="intro">Game Info</a>
+							<a href="https://jkc88.fun/RFSEMACC1" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/B6bl9vgPFAYKZmIILEdtUccOyE0uCRZPhsRe9gZt.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Fortune Gems</div>
+							<div class="gamesBox--txt">
+								<p>The mysterious Garuda is the symbol of luck, which will bring you unlimited amount of wealth. When Garuda appears on the whole reel face, you will win jackpot prizes</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/109.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=109&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=j74WnDc026e6c5afa45cf936d5b4b7a7e1ec13g5PgOy&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/dnLqhhQvBdCbvejrOQQtAHuyN90yYSSThHNLbVce.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Money Coming</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Madness Number Madness Winnings！&quot; Special wheel includes Random odds, Free respin, Lucky wheel, winning is so easy！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/51.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=51&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=cfpvKd6a190dabc858c7f15b2a89d714a6f5fdEJwNk9&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/QnKAKghN7vn8bd9BDBTQ0xXZoWnUG5hreM81Bwhx.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Jackpot Fishing</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Super prizes right in front of you！&quot; Wide range of fish species that come with their own prizes, target, and lockdown to get rich quick！ High odds species to appear anytime and anywhere with random extra 5x multipliers after captured! Ready to get rich overnight！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="https://jkc88.fun/RFSEMACC1"  class="intro">Game Info</a>
+							<a href="https://jkc88.fun/RFSEMACC1" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/CJjgJSeVxnOvAwI8hzTBm8VhzCGvE25LEEnazsv0.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Boxing King</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Punch the world！&quot; The entire reels of WILD for you, easy for combo winnings！
+More combo in Free Game will be more multiplier！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/77.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=77&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=XKWqbJe575985c3a506630457ab71bc799a0067pozJR&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/WekmwkpiS8Tr261VB9aOn28PSsdlqApBHU7gKByy.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Crazy 777</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Special reel brings a whole new experience to the game！&quot; Classic one-line game with the special reel effects, with many special winning point combinations waiting to be discovered！ Higher multipliers for double the satisfaction！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/35.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=35&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=XfeKCoc0fc52310afaf67954ff1eb731ebac0bcbSS4K&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/LyzKwidDM9KaW2UzG6mKPHzK0kf9RYI6tt8X5qfN.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Mega Fishing</div>
+							<div class="gamesBox--txt">
+								<p>&quot;The Mega Octopus is coming that bringing the Lucky Golden Wheel, turning your wealth！&quot; The most exquisite fishing game includes special species that make you super pleasure! A variety of Boss is easy to hunt, simple and easy！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/74.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=74&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=D7ZcBLa51e39a91a6bb62fc1b0b1310fdd619ces61qb&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/pswRAV2CeileioWzob1tFVG7gTlzZWf0KUoNFtbC.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Ali Baba</div>
+							<div class="gamesBox--txt">
+								<p>I&#039;ll tell you a secret code that leads to a treasure vault.
+Ali Baba: &quot;Sesame Open!&quot;
+Numerous treasures and prizes are all yours for the taking!
+Special Chest: The chest has a multiplier. You don&#039;t want to miss out!
+Free Game: Try your luck and get up to x4 chests!
+Previous Special Wheel: Get a row of Ali Baba (WILD) and you&#039;re guaranteed to earn prizes!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/110.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=110&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=hitKZB209ac26a444bf84688b98ab5dfc1dcc7LAlaoK&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/SHJMCBIk2kkgOKnBEK8VuOICuesPq5r74JPgky21.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Mega Ace</div>
+							<div class="gamesBox--txt">
+								<p>Classic Mega Ace is launched!
+  6X6 super large grid! There are 46656 ways in total.
+  The more you play, the more multiplier you will get! A lot of crazy combos are waiting for you as well as amazing multipliers! Main game X1, X2, X3, X4, X5, free games double X2, X4, X6, X8, and you can get up to X10!
+  Don’t forget that there is also an Extra Bet. After spinning, you will get multipliers from the second stage. As long as you win, you will start at X2!
+  Eliminate the gold card group to get the little joker card (wild), and get the big joker card (wild) randomly after the little joker card is eliminated! After the big Wild card appears, immediately replace 3~5 symbols on the grid with a single wild card!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/134.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=134&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=n9uNvFb3853d02bcae8d9700a04758ce03707308aRnU&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/197_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Color Game</div>
+							<div class="gamesBox--txt">
+								<p>The most local Color game, players can choose colors freely and get started easily.
+When three green dice are drawn, a large bonus will be drawn with everyone, up to 5000X!!
+Three dice of the same color can easily get a 10X award! Absolutely not difficult!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/197.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=197&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=7PrEJG49c782ef33b5c54f4fe3a47b109d96c9SxIVMN&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/BNXvs9yCUWdTNBTlNF3ryTQozgKua32niQsJQwlU.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">RomaX</div>
+							<div class="gamesBox--txt">
+								<p>Challenge the Fierce Lion and the continuous Combo Battle. Will the Goddess of Fortune come to help you win higher rewards?</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/102.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=102&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=PuDGJob5f29adc8b390db7b95c18632ae60b35OgVxSO&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/4KJKvMGhUqRjx3TCL2PKGvUNqivBTCZ19VNVmg1n.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Happy Fishing</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Gem Turtle brings 8 odds prize, change your world ever not lose!&quot;
+Release Torpedo to kill the target effortlessly! Special species and Super boss prizes make you feel good!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/82.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=82&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=76vmQ801f6b4bb7244355d80ea9e0934b10855K3jDVo&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/E4y41LN3d71thtI1nakxbsdawgE1j9VTQr1XnQPb.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Dinosaur Tycoon</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Fishing game of innovative topic Dinosaurs！&quot; The latest, fashion and cutting edge fishing game with variety of weapons. It will allow you to have the feeling of immersive being rich at Jurassic！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="https://jkc88.fun/RFSEMACC1"  class="intro">Game Info</a>
+							<a href="https://jkc88.fun/RFSEMACC1" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/iSpxffI53zCUoRTxhx9MEAYA0CdxSrdOIQkbnsU9.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Charge Buffalo</div>
+							<div class="gamesBox--txt">
+								<p>&quot;No limit to the number of Free Games and Wild Card multipliers will be added on level after level！&quot; In addition to the winning points multiplying when Wilds appear, there is no limit to the number of Free Games. Endless prizes waiting for you now！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/47.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=47&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=HgkzpW4692b619781064686e343937a8d86c4aNBfjGY&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/4CJPoVsAbdadHQzAi3ZUMKTQ80Mfll3XKYjZY4ul.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Crazy Hunter</div>
+							<div class="gamesBox--txt">
+								<p>Blast Towers and Win Prizes.
+Special tower defense gameplay, drop the monsters to win prize money. Special rules and multipliers increase your wealth to unimaginable height. Come and become the richest Crazy Gunner.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/92.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=92&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=jhVJRw9de9ff847144b370dd0cfec605773f7f87fxOh&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/zVxMlPOf7mOWwlsfRQQKNYWJcU7TTKSX545Tw9eB.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bombing Fishing</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Bomb the fishes for the ultimate prizes, Bombing Fishing is here to make you rich！&quot; Innovative gold bomb and torpedo mode available, launch the gold bombs to bombard the fishing grounds. Release the torpedoes for powerful attacks and kill the targets with no sweat！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/20.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=20&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=TjSF9K973710bb2ebe1b9442c6e110b6667f4cGold6v&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/174_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Jackpot Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get the number, and a lot of bingo bonuses are waiting for you!
+The jackpot is waiting for you to collect it, make up the ball to get more chances</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/174.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=174&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=2lqUTAcdbda682d101b09a7249914cb3a5ce1eIO87DU&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/EyS4Emff13B4ZZH09Kv8gZosOx5iT8MDHrPJZnuj.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Pharaoh Treasure</div>
+							<div class="gamesBox--txt">
+								<p>The Mysterious World of Egypt where Pharoah controls the slot panel, and the changing reels and clearing combos bring everlasting surprises</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/85.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=85&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=Azk4ZUf88059896b1ac5bbb995471562b9a5e9m7CltB&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/LjeFOoGy9xpnvQMS71DyDKChpyOu2u2HkP0aA1Rb.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Royal Fishing</div>
+							<div class="gamesBox--txt">
+								<p>Enjoy the World of Royal Fishing and capture all the fish in this ocean! Great fortune coming at you in waves! Awesome fishing game Immortal Ocean King is here to give you unending prizes. Come and awaken the power of the Ocean King！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/1.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=1&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=TBYL6Sbcf7c056be682d3a157a1f32832fd88bsrNq5i&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/qpo5D4EJD3FCe4MmcTsDHhUIlgU2a2pe9739GfgV.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">All-Star Fishing</div>
+							<div class="gamesBox--txt">
+								<p>In this star-studded game, the King of Ocean is within your grasp and easy to catch! A variety of gameplay including roulette, slot machine, and King of Ocean interaction are all here in All-Star Fishing!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/119.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=119&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=Kwt9mw52d281d9b00f134a6d1f5be65eaf8348jyRkFt&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/199_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Tongits Go</div>
+							<div class="gamesBox--txt">
+								<p>Tongits, a popular poker game in the Philippines, has a variety of fun and interesting ways to play.
+A variety of victory conditions, extra scoring methods, testing skills and luck, and high bonuses may also be obtained in a single game.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/199.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=199&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=SFghnVfb6db0657a31e178c4d0beba4d2514b9LpasfD&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/PTDCKApUnC8Ld3duD0h8V0McrJ7IxvM4dNnHkZS7.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Boom Legend</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Octopus rage accumulated to win Super Reward that makes you RICH！&quot;
+The most special Fishing game includes Cyclops, Viking and Goblin, various of BOSS there are brings BIG WIN ！Crocodile brings Jackpot to you！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/71.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=71&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=X1ElDGad7fea250537f51ecc71fc5f2937fc593JGYYC&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/YhsF0jmPjZUq2JEymmffCsZDCDl5WtXIjdY9OYeB.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">iRich Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get numbers and score bingo to collect numerous rewards!
+Purchase more bingo cards for a higher chance to earn rewards. Also, you can purchase additional balls to earn prizes with a chance to get a WILD ball for scoring bingos.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/122.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=122&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=hfljbka48e08c6cd0379ea8f832a19e32d8970yOqu3j&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/OoMg71BF4vvTCkPSliQTYwr704zOs6QLqHzlNPSc.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Feng Shen</div>
+							<div class="gamesBox--txt">
+								<p>Godmaker, 4x6 boards with 4096 paylines！ After matching that the spell will create new symbols for nonstop repeated paylines. Winning ratio is increased in the Free Games for endless opportunities to win prizes！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/38.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=38&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=jbaCqa85eb5f09b102889a6c26aaf4bf1dfa75iPaGyx&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/tAGg2jWJuoQLwVzOhUpaPInHzLNdC25lNu11NDSH.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">7up7down</div>
+							<div class="gamesBox--txt">
+								<p>2 dice games, multiple play styles to choose from, with Extra Pay, big rewards for a small bet</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/124.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=124&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=wRXk5qa29ed2fb677aa43fe47f36b98d21fc5cDrUq4U&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/5UdiCFJUfikigL7KNC28nlfG12ZlISruzSVs5j2y.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Gold Rush</div>
+							<div class="gamesBox--txt">
+								<p>Get a lot of bonuses through a variety of minerals. In the free game, you can use the WILD lock to win many prizes. In addition, in the bonus game you can get more rewards by appearing in a mine pit, and the extra mode can get you even higher rewards. Let&#039;s go crazy with gold rush and get high winnings!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/137.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=137&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=nIA6kma715d8992581886fb1a54c9aac1dc8b751Lm4c&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/qNDU1xSmKiooL9dmt5sT5pJis1gERiSRycPaH8uj.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">JILI CAISHEN</div>
+							<div class="gamesBox--txt">
+								<p>The WILD must appear in a whole reel, and randomly with a multiplier and a free re-spin of the game, after the re-spin, a new WILD can be re-spun again, and the multiplier of multiple WILD will be stacked up to increase the prize significantly!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/144.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=144&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=q57Tg297ec99705793ad52136b4286aa715344SOVEfX&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/wdJ8G43sPNWt5CUFcEahjCEgiBL3ZwODlbYvgW43.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Super Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get the number to win the prize, a lot of bingo-linking rewards are waiting for you!
+There is a chance for a hundred matching balls to connect and win specific prizes to enter the bonus game to win the grand prize!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/151.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=151&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=MTJGpO883f32274b830a515d3bbb4cc38e096cRzBsuR&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 2>
+						<div class="gamesBox--image"><img src="../img/games/luQqAu7cd25ihPioVsjyNUnn56x2AxvnTW82SZoY.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Golden Bank</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Mad about the money？ The Bonus Game is full of prizes up for grabs！&quot; In addition to the winning points multiplying when Wilds appear, if the Bonus symbol appears in the Bonus Game, you will get additional prizes. There is no limit to how many prizes you can get and no limit to the number of games！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/45.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=45&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=KsyCJu3022860aff331e3ffe79338c750e0974gj1fX7&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/163_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Ludo Quick</div>
+							<div class="gamesBox--txt">
+								<p>Traditional Indian ludo game, fast competitive version.
+It is easy to get started at any time, and it is a quick and exciting game.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/163.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=163&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=ldx0l143cb8679893624bace0918e2093d8a16fFasKJ&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/150_en.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Lucky Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get the number, and a lot of bingo bonuses are waiting for you!
+Collect golden balls for extra reward opportunities
+Connect for bonus games to win more</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/150.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=150&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=M3hYiOafb0b5297158efee686b9434cdde9b21I4LcPe&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/WvNbVLxtzyasYYYF2BHZIA97pHT8ZOU6T9Vz0TFW.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">TeenPatti 20-20</div>
+							<div class="gamesBox--txt">
+								<p>The &quot;India Exclusive Betting Game&quot; combines the traditional Indian 3Patti and the betting game, which is a combination of winning and guessing combination. The unique &quot;PAIR PLUS&quot; and &quot;6 CARD BONUS&quot; betting methods are available, with the highest jackpot being a thousand.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/161.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=161&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=QcX5zZc87275842e41b12a17f0e44446972725AbG7JH&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/cV02GiGVfMopLRZuFVnfEpWCHRRLYoktixkjIfND.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Callbreak Quick</div>
+							<div class="gamesBox--txt">
+								<p>Traditional Indian 4-Player Poker Game, Single Game Quick Version
+Callbreak is a single game quick version that eliminates the need for complicated multi-game battles and determines the winner in one game.
+Play a game of poker with skill, wisdom and luck.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/160.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=160&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=skKyJ127dd7f16ae9a1296e661e4295b817e9dqRepOx&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/MrKBlKo6cAsk5RZn43PlohNSVxUvkYx5u50giUTI.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">TeenPatti Joker</div>
+							<div class="gamesBox--txt">
+								<p>Classic Indian Poker game with a new way to play with jokers
+Joker is an enhanced version of the TeenPatti Indian poker game, where you must have a Joker ghost card in your hand, which can be changed at will to make your small cards bigger.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/159.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=159&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=xIvXSh8e5eb53aa3d1d9c24a9a465893e0ecf8GBbP4b&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/8tAoHFhilO4g2ZRrq8ueqceCwOwlF7bxTblqt6MD.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Baccarat</div>
+							<div class="gamesBox--txt">
+								<p>The world&#039;s most popular and classic poker game.
+The game is a great way to win or lose. You don&#039;t know the real win or loss until the last moment, and the multiplayer mode is exciting and fun.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/152.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=152&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=wHBdkTb36644147deb19767e1a433e5c109038qX4cAD&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/aayCHukL6YyT7wxYfD4UoT3PyPag1AVspUyIXiZX.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bingo Carnaval</div>
+							<div class="gamesBox--txt">
+								<p>Get the numbers and lots of bingo streaks are waiting for you!
+Lightning Hit to get more numbers in a row
+Bonus reels with unlimited multipliers to win big prizes</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/148.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=148&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=AUveqQ65805cc980e5bd4470bf833313d4bc0aRWDwMe&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/P5MP2iXUOueNIjvo2yMHG0oHdrscQ8LCgl5pxYas.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Fortune Bingo</div>
+							<div class="gamesBox--txt">
+								<p>Get numbers to win rewards and lots of bingo streaks await you!
+Double the jackpot with slot machine spins for extra rewards!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/139.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=139&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=h5CfFz502c5b73d71d49e77a93823f668b23feMsTqAT&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/cPwUrKmPO9oXwalxA5kNNR5SF71PGzL7ZwRT5jcU.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Callbreak</div>
+							<div class="gamesBox--txt">
+								<p>Traditional Indian 4-Player Poker Game, a Double Challenge of Skill and Memory
+A unique Indian four-player poker game, similar to bridge, which challenges players&#039; skill, memory, and reasoning ability.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/127.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=127&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=8w2QqLf2d35d9a85b67033f3a3c69348a08c7fNaBy2b&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/dd3DbLTEOzjngEaB6g3pI3IV3UAQTuG8uCuajgQC.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Sic Bo</div>
+							<div class="gamesBox--txt">
+								<p>3 dice games, multiple play styles to choose from, with Extra Pay, big rewards for small investment</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/125.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=125&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=FSljJMa89fb42c1d24e5b8c644c93a8939e39eujJrGV&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/PXKEbZQHLGg6t396j8MN0JlxxNY284nDy2i7dcCG.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Agent Ace</div>
+							<div class="gamesBox--txt">
+								<p>In a standard game, when a Villain symbol appears, there is a chance to activate the Ace Agent mode. Kill the Villains to convert them to WILD, which might trigger the x2 or x3 effect! In a free game, you will always activate the Ace Agent mode. Collect enough WILDs to replace specific symbols with Gold WILD and increase the number of free rounds. You can even double your score when you reach the highest phase!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/115.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=115&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=uennuq738409db5841b19cb0caae1f73273680filUyj&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/itk4uUwlMNQS6lKRrMUEgcSfuCI0kuAQ13HBMx57.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">TWIN WINS</div>
+							<div class="gamesBox--txt">
+								<p>The classic fruit slot now has a magnificent stage with a 3x5 board and 243 ways to score a bingo. Trigger special wheels in the same row/column to greatly increase your winning chance!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/106.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=106&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=DSSh9R79cf3156a0dcfca223cd33b1634f174ckzfyt9&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/ZNg19SBU2rC4YcHEXscGAzu8m0IiByFI9rirjN7J.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">MAGIC LAMP</div>
+							<div class="gamesBox--txt">
+								<p>There is a random chance that a lamp genie will appear in each round of the game, which will greatly increase the number of Lamp Genie Symbols in the reels, and greatly increase your winning rate and jackpot chances!
+
+When the WILD appears together with the lamp genie in a free game, you can win scores without connecting the lines. The more lamp genies, the higher the chance to win prizes!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/108.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=108&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=MBun0H3525fe2a523ba3f8d4349db5a1daaaa4ohFyRq&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/ZOfSypdZ63b1vjGvcBEcJgopJdZkHsv5lIPXEL2z.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Party Night</div>
+							<div class="gamesBox--txt">
+								<p>The rhythm flows in the city at night with a theme of colorful nightclub neon light. Try 243 ways to score a bingo and become the biggest winner!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/76.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=76&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=iL9etD245eea1283fe7d4bd09796cf9b35e404P0IDEa&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/z2wTy3Tnkb6FdOh6o2wvmLxd8fVmKMZcg8ti0Opt.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Super Rich</div>
+							<div class="gamesBox--txt">
+								<p>Ganesh transform into Golden Ganesh to bring you good luck. Connect the line to increase your wealth luck; Golden Ganesh increases your chance to win big money!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/100.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=100&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=7X48Atdee39f68826f75124804dacb614587e9AE7ZN4&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/1pSzoviZVus7i6aDFlo6sQ36QLz3cyHmlY2zTn9I.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Lucky Coming</div>
+							<div class="gamesBox--txt">
+								<p>The Ganesh will transform into WILD to bring you good luck. As it raises your winning chances, if you play and win in the middle reel, you can spin different multipliers to increase your wealth.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/91.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=91&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=o7133y84c4f581ae07277d8808c5a457d0fe69QPtY6T&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/cP4jDI2aHW5hPHADaST0RoPW1aroQyzUfMPPf6G0.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Number King</div>
+							<div class="gamesBox--txt">
+								<p>There are three roulettes with up to 1034 options to place your bet. If you score a critical reward, your prize is doubled, up to 1900x.
+
+Select your favorite number to earn various rewards and compete against the other players in your session for victory.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/111.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=111&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=AtO6a2b8fe6be5cb374f47656f0b93d8bd6408RIRadE&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = >
+						<div class="gamesBox--image"><img src="../img/games/BHCsjfIJHQklDAw9q7wDqQCYG7wywGYM1SxwPPxJ.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Secret Treasure</div>
+							<div class="gamesBox--txt">
+								<p>Secret trove of treasures await you. A Courage Trial challenges you to win the whole slot for more game rounds and multipliers. The Wisdom Trial allows unlimited winning and playing. There are also hidden treasures for more surprises</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/78.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=78&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=gI6yTt9c6e979ee4c32674ac006ee71387c2d75NkEyU&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = >
+						<div class="gamesBox--image"><img src="../img/games/1H8ijyGgaRamYpLVgcB1NErVc02j2fXzJoqRhY7l.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Dragon Treasure</div>
+							<div class="gamesBox--txt">
+								<p>&quot;When the Dragon God attacks, Nothing can escape！ Your prizes will be multiplied！&quot; There is a wide range of Dragon Spirit effects to makes you win the treasures. The special effects can be triggered over and over again, the prizes will be multiplied and multiplied again！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/46.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=46&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=TUa1GH621496a27dd861001d2facbf48d057c6QkEhIa&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/BOJ4IEXXwKmkXDWMRWeHG5TR1B3QbUE6DgGIQ80X.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Poker King</div>
+							<div class="gamesBox--txt">
+								<p>There are two Poker Mark roulettes with very high winning chance. If you score a critical reward, your prize is doubled, up to 20x.
+
+Select your favorite Poker symbol to earn various rewards and compete against the other players in your session for victory.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/113.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=113&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=D4cKQJbfb6fa973944aeac089a5d41c64b711cLrAbYj&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																														<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/MBW5mtdnEF65xip92mGxz7ScpAnpEInktAEVvJ49.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Big Small</div>
+							<div class="gamesBox--txt">
+								<p>Roll 3 dice to see who wins. Choose Big or Small in this easy-to-learn, easy-to-win game. Various ranking rewards await.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/118.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=118&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=nagG4W4b3cd7144eac2b33545f64f2c60706b3tBhCWK&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/9sEDXykSrXR3pBnx1P5SwiFSmXd3D15yUB0V8nW8.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Chin Shi Huang</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Brings you supersized board with 4096 paylines！&quot; After matching and eliminating, symbols are replaced for non-stop combination possibilities. Number of rounds and the winning ratio are increased in the Free Games at the same time for endless opportunities to win prizes！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/2.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=2&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=EpXTvSedc764386543889dbebba8f51808a309ioRKOe&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/A1CPgfQ5jYBGkpHGWzbKOiUAGMSGHCus8H30bOsx.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Shanghai Beauty</div>
+							<div class="gamesBox--txt">
+								<p>&quot;A Beauty from Shanghai, bringing you hearts on large board！&quot; This is a free game with expanded board, for every four hearts collected, the board will expand by one row, up to a maximum of 8x5 in size. Collect more hearts for more chances and more points！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/17.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=17&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=Tjn3CEced22265555769aad93dae9186d54520LCDqZP&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/pa0iSTUboOEQfgbo62pmy4dDM2xLsBYvqvUiNeUV.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Jungle King</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Explore the Jungle to visit THE KING will waiting for the explorer！&quot; Mystery Symbols will bring many same symbols makes high chance to win. Shoot down the aircraft as many as you can, both multipliers and free spins are increased. Just Do It！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/16.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=16&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=azCSHd84abcb0ced9197b89da797c910398aaaGF5icQ&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/e6tN2AY3YRfSLi94WXIBp2tIon55bDoRPBuBw4PE.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Lucky Goldbricks</div>
+							<div class="gamesBox--txt">
+								<p>Play Midas Touch for the Gold Prize, stack the Gold Prize for winnings that go through the roof！ After activating the Free Game, randomly select the Gold Prize in Midas Touch at first, and then start 7 rounds of Free Game. If you get more than 5 Bonus Gold Prize in the Free Game, get even more rounds！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/48.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=48&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=NOITqt4e85fa85e727e78a09cc1dc14c17949aO6A9FA&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/53eTXuajPeGjQQj71G2mBHrpk0Wwz4Cb8kbK59E0.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Golden Queen</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Scarabs coming and bring Wilds and Huge Fortune！&quot; Appear one Scarab will spray 5 Wilds, if appear 4 Scarabs that means Full Rewards belongs to you! Golden Queen make you Golden Rich！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/58.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=58&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=Png4pw2fb3fcfd17aacdd221f9a5ce7ae5b35e7lnB5D&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																														<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/dKffeugz5egmm7WcbF9DjFm0Xmvcf1Cf1oT4jDJQ.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Gem Party</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Gem Party giving you a good time！&quot; Enjoy the thrill of getting endless combinations and endless hits. Collect gems to upgraded boards and Rainbow Party for even better chance of winning big prizes！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/10.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=10&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=1GuRUh2d837ebd81bb7b2670526563db25264ejH0aTv&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/gNOok6EXpRxL1u721BReycCzNv2ESi5wtKa9tmK5.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Monkey Party</div>
+							<div class="gamesBox--txt">
+								<p>&quot;One reel as Wilds will activate re-spin for Free！&quot; Appear one whole reel of monkeys will activate the re-spin for free until win！ Definitely let you take away the Grand Prize! Let&#039;s party together！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/67.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=67&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=0jy9Gx5361de9d0d8dd6a1fd3d6e31767e6c8dq9mi64&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/wlKkrxCK5rYVyYn6yhoMZRbU9S6UA7uxoBRfU3UA.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Jumping Sheep</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Collect as much Sheep as you can for Grand Prizes！&quot; Appear Sheep of different amount will win the five different Jackpots！ Easier, Faster, and Grand Prize are unimaginable！ Try and experience the cute, charming, and interesting Sheep Slot Game.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/69.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=69&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=RhBjAYd1be2e716650de9cc20647cd17aeb38c4ahzB6&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/UnKk91SrkzIGcw32dPv2sdP3O8UY4RLSszL6bQih.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">FA FA FA</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Spin and win a fortune！&quot; When Wild appears on the middle reel and winning, there is a chance to win different multipliers. Fafafa is a simple game with easy rules and high speed!！Win win win all the way！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/21.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=21&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=qqs9bk5424456c7071ab83d5d3417c40e08465HxXyVf&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/wD2JargnnAgofLLNDUCO0FTg4PA061yJa0PG0ZZc.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Xi Yang Yang</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Light up the firecrackers of celebration, paylines of high odds bringing fortune！&quot; Two Fortune Babies will randomly light up the firecrackers around them, with different payline effects triggered as the firecrackers go off. Fortune Babies are adorable, firecrackers bring luck, winning points bring joy！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/43.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=43&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=nv2yAS2e2feb9435d1cd1948c2c5e6356a0c4aerUnrT&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/c4TKzLmEI3GM1fq3er1srqbeuaBdXe930HZv0ytE.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bao Qing Tian</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Random swords falling from the sky and whole reels of Wilds waiting for you！&quot; Randomly trigger an entire reel of Wilds, and win 500x the prizes with a whole board of Wilds. Each reel of Wilds triggered in the Free Games will gain +1 extra multiplier.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/36.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=36&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=UlzJf9cf68a7ec84382523e49ffd65faa0d21aCMx4Tk&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/Ggu9ncz2W3oSwHN1Jg79BrJgMpeTAoloSqKppAzB.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Crazy Fa Fa Fa</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Just one spin for both boards, winning all the way！&quot; Bet once and the prizes calculated twice. Any Wild winning on one board will show on the other one！ Maximum 1688x multipliers there you are destined to be a winner！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/40.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=40&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=XFLPRPe41f2f272ae691627f85dbd0cc0114a8JefcdY&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/OjGywFE5l6SsZT8JMr1Uzdti0FTYQ3oFCn5Z56Ie.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Seven Seven Seven</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Classic Slot Game with the ever-popular gameplay！&quot; Now with extra three Jackpots! Pull the lever for the JP Grand Prize every day, JP Grand Prizes up for grabs！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/27.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=27&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=qGxta4060b66ed336f1db328a6f22b40301e01uXGgZn&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/sdOWvClz6akvEO5lmkowJ0DqQStJ9SUPm2PY9rc6.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">God Of Martial</div>
+							<div class="gamesBox--txt">
+								<p>&quot;High chance to win All-of-a-Kind prizes, get ready to take on the challenge！&quot; Special Battle of Red Cliff mode, greatly improved chances to get Free Games and All-of-a-Kind prizes. All-of-a-Kind prizes with 50x multipliers guaranteed! Up to a maximum of 500x multipliers！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/4.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=4&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=CgEXrj5955c3ea8a141b25252e4b312eeaed63z1hVk5&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/fz5023c0gyF3VRWcIMUCDwOHSZ96ES1ApeOcPDqy.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Lucky Ball</div>
+							<div class="gamesBox--txt">
+								<p>&quot;The legendary Mirror Ball is here to bring you great luck！&quot; The Mirror Balls will lock and respin in the feature game and also have a chance to win 2x symbol for all winnings on the board. The final score is the sum of the numbers on the Mirror Balls, maximum 1000x multipliers！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/13.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=13&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=kASjZu3760dfbe35a1fd6d1d7acfcaf2d119c8oKrt6K&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/mQin1TgPrpCV87EycbR3Ni1iN8aQuHB2iMkJVppb.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Teen Patti</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Classic Indian Poker Game, three cards give you endless hope！&quot; TeenPatti is the most popular poker game in India. You can bet through luck, skills, and courage. No matter what the card type is, there is the hope of winning！ The Indian version of Fried Golden Flower makes you win a thousand times the Jackpot with three cards！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/72.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=72&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=BQ4Vlf36cd7268851f30c62436edc1f8fec8fbqDeBIj&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/0qhswNp05KpIgW0xl25wfqHH7S5n9dipGkmT32pk.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Hyper Burst</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Exceeding the limits, ultimate burst！&quot; The focus of Hyper Burst is Taiji Wild extra free spins. After winning, there is a chance to activate the HYPER TIME mode with free spin til you win maximum 500% points in a single game！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/14.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=14&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=MLbzauaca4d1738bab1e617f9a573a89ce3a8f3d3ouB&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/6elEP9CYMlGGgsedWKYEKX1W5oCmOEnfNTx09pth.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Rummy</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Classic Indian Multiplayer Poker for exciting matches with opponents&quot;
+Special Indian Poker where you create special combos and win with your 13 hand cards.
+The game tests the player&#039;s combination of intelligence, skill and luck, and you can enjoy the thrilling sensation of competitive gambling with your opponent!</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/94.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=94&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=4Y7BFI8c79c9e385f1f353378f97a2fb11a0f7P0CfXG&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/aFYBf4FuUY2haRcPLUsOWjFT2JcO604sGsBCgU0J.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Rock Beauty</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Let&#039;s rock！ Rock Beauty is here to conquer your heart！&quot; Symbols merged into bigger bigger bigger！ Get the full 3x5 heart board in the free game and you will have a chance to win more than 1000x multipliers！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/18.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=18&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=qC1CIM3729984581fad59f01bbc43a7d6032393lBb5T&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/CHP6I7BchOH9j7pgK77ZDsdRrqEmP1Sv6XDOCCre.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">ANDAR BAHAR</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Classic Indian Poker, choose ANDAR or BAHAR ?&quot; Special Indian Poker, easy gameplay, test your fortune, and play anytime！ The Indian version of &quot;Tiger&amp;Dragon&quot; makes you experience different funny poker！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/79.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=79&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=CHDnWF93e67aa0c58cb5f67d7d14b12d0c9408CAT6XB&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/rmEicpxhJtrtRBzVcUjet2f1TSqE4rX5ig3z8RI5.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">War Of Dragons</div>
+							<div class="gamesBox--txt">
+								<p>&quot;5 Super Powers！ Winning fantastic high multipliers！&quot; When 3 Scatters appear on reels 1 to 3 at the same time to activate the Free Game &quot;Realm of Dragon&quot; with a maximum 30x bonus and a prize of 2000x or more waiting for you！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/9.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=9&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=vtKSM3c2955f6edf2e79f5ff94726e81102384pZOTtA&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="2" atype = >
+						<div class="gamesBox--image"><img src="../img/games/qWm58LgP2FRApkg9oki7RD0X1bMC8DEUwkhp2cyk.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">AK47</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Classic Indian Poker Game with Enhanced Edition, WILD makes your hands are best！&quot; AK47 is the most popular poker game in India. If your hand includes A, K, 4, or 7, those are WILD will makes you be a winner！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/75.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=75&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=VQSpQE80a7cdf25b16636cb9f82e0a8138c8abLuNeXd&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/0kL9ZamnrdKemPYBbaDaLDSWSRqPntQiJaBalIkO.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Fortune Tree</div>
+							<div class="gamesBox--txt">
+								<p>&quot;A huge variety of unique games！&quot; Wilds randomly dropped in main games, but Free Games? Dropped Definitely！ Choose different lanterns to get different numerous rounds in the bonus game which to collect different-colored piglets to win bigger, try your luck and find the grand prizes.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/6.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=6&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=ymE4Jdad3592e9bcae285dc827aacfc716a959zWW8FC&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/W8f5HJmIUYyTEK9VGd8Snie5BIaZ2btKiWerC9IQ.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Candy Baby</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Match the candies and win rewards! Match as many as you can to win even more winnings！&quot; The Lucky Reel might be triggered every time you collect 10 Chocolate Balls. The wheel includes 3 feature games that can help you win bigger in one drop.</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/23.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=23&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=qML1Nt72c9291784b5c8059603055ec8056c48sh7OSr&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/wBg4OWUKpeejQZH1DVhjhU5LZOhS76KGCSQcrT7u.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Fortune Pig</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Collect as many pigs as you can for a higher prize pool！&quot; Collect pigs in the 3x3 board with five different prize pools waiting for you, and large prizes beyond your imagination！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/33.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=33&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=v6aD969cabbe41ad4be737483c525ba2dc9998EblCaY&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/K8gSEdkSRwIrXGhqA8zRRnDJQZ6v8Cp60LvtiMFB.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Bubble Beauty</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Mermaid Beauty blowing bubbles！ The sexiest sweetheart in history！&quot; A chance to spin out bubbles with points on the reel, win the payline, and gain the extra bubble rewards. When bubbles appear which will move one place to the top at each round until those move out of the board, lots of chances to scored！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/30.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=30&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=NflNbHdc6c7bd64648f0ca64a4a46cf66f631fsWiP6J&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="1" atype = >
+						<div class="gamesBox--image"><img src="../img/games/uUSdVuZeozB1SyYO0WKilQTjqeZgwpX26PFB69OI.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Night City</div>
+							<div class="gamesBox--txt">
+								<p>&quot;Wild dazzling nights in Shanghai, expanded Wilds for big prizes, multiplied winning points in every round！&quot; Reward multipliers increase in the Free Game after every round, up to a maximum of 3000 times！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/37.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=37&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=qAm4arbe6b6786837f0b9df83f9950efd09288BCdvh5&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																				<div class="gamesBox actionC" type="3" atype = >
+						<div class="gamesBox--image"><img src="../img/games/tSEzHsO0wYUl5PdIknKH9KKlKLNJQPtIhvRZmoHX.png"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title">Dragon Fortune</div>
+							<div class="gamesBox--txt">
+								<p>&quot;First straight-version fishing game, shoot dragon down and win the GOLD GRAND PRIZES！&quot; Jewel Dragons bring multiplier prizes that will make you rich! Collect the jewels for the Grand Prize! All 3D Dragon Kings are here waiting for you to challenge！</p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/60.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=60&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=WAJysf18cc2975358e99b86fb3bb368bbd02a1GEHNfg&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+																																																																																																																																																																																																																																																										<div class="gamesBox actionC" type="1" atype = 0>
+						<div class="gamesBox--image"><img src="../img/games/222_en.html"></div>
+						<div class="gamesBox__content">
+							<div class="gamesBox--title"></div>
+							<div class="gamesBox--txt">
+								<p></p>
+							</div>
+						</div>
+						<div class="gamesBox--button">
+							<a href="PlusIntro/222.html"  class="intro">Game Info</a>
+							<a href="https://wb-api-demo.jiligames.com/api1/LoginTrial?GameId=222&amp;Lang=en-US&amp;AgentId=SiteUser&amp;Key=787G6g5558a1cfca8ddfcdeb65dd19c7f3f42dL6UqMC&amp;apiId=6&amp;HomeUrl=" class="play">Tryouts</a>
+						</div>
+					</div>
+															
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 頁尾內容區 -->
+	<div class="footer ">
+		
+	</div>
+
+</div>
+	
+</body>
+
+
+<!-- Mirrored from jiligames.com/plusplayer/games by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2024 07:25:49 GMT -->
+</html>
